@@ -1,0 +1,38 @@
+.pull-left
+{
+	float: left;
+}
+.movie-detail{
+    padding-top: 10px;
+}
+.movies-info{
+    
+    padding:10px;
+    box-sizing: border-box;
+    margin:15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.movie-banner img{
+    width: 70%;
+    height: 150px;
+    padding-left: 20px;
+}
+.rating__movie
+{
+	color: goldenrod;
+	font-size: 15px;
+	font-weight: 900;
+}
+.date
+{
+	font-weight: 600;
+	font-style: italic;
+    padding-right: 3px;
+}
+.movie__list
+{
+	color: rgba(255, 0, 0, 0.88) !important;
+    padding-left: 50px;
+    float: left;
+    font-size: 22px;
+}

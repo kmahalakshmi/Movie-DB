@@ -1,0 +1,124 @@
+.header__slider-item {
+    height: 300px;
+    position: relative;
+    top: 40px;
+}
+
+.header__slider-item__card {
+    height: 300px;
+    float: left;
+    display: inline-block;
+}
+.header__slider-item__card img {
+    width: 100%;
+    border-radius: 3px;
+}
+.header__slider-item__btn {
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    box-shadow: none;
+    color: #dfdfdf;
+}
+.header__slider-item__card-desc {
+    
+    float: left;
+    display: inline-block;
+    color: #358a35;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.header__slider-item__card-desc h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 33px;
+    text-shadow: 1px 1px 1px #000;
+}
+.header__slider-item__card-prices {
+    margin-top: 30px;
+}
+.header__slider-item__card-desc p {
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.star {
+    margin-top: 30px;
+    font-size: 25px;
+    color: goldenrod;
+}
+.movie__details
+{
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    left: 56px;
+    height: 550px;
+    top: 250px;
+}
+.footer__part
+{
+    z-index: 10;
+    position: relative;
+}
+.bckgrnd__section
+{
+    background-color: white;
+
+}
+.hero__section
+{
+    background-color: white;
+}
+.header__title {
+    color: white;
+    font-size: 23px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.84);
+    padding: 12px;
+
+}
+
+.header__title span {
+    color: rgba(89, 185, 89, 0.99);
+    padding-left: 3px;
+
+}
+
+.padd__lft__0 {
+    padding-left: 0px;
+}
+
+.padd__rgt__0 {
+    padding-right: 0px;
+}
+.img__background
+{
+     background: url(/Images/hollywood-movies.jpg) no-repeat center center;
+     background-size: cover;
+     width: 100%;
+     height:100vh;
+     z-index: -1;
+    position: absolute;
+}
+.about__movie
+{
+    padding: 20px;
+}
+.image__list
+{
+    width: 70%;
+    height: 200px;
+    padding-left: 20px;
+    float: right;
+    border-left: 1px solid beige;
+    padding-top: 10px;
+}

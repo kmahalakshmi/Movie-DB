@@ -1,0 +1,21 @@
+<section class="movie-detail" ng-init="init()">
+    <div class="container">
+        <div class="row">
+                <div class="moviedetail">
+                <h1 class="movie__list">TOP RATED MOVIES</h1>
+                    <div ng-repeat="result in results" class="col-md-12 movies-info">
+                        <div class="col-md-3 movie-banner">
+                            <img ng-src="{{defaultpath+result.poster_path}}" alt="" class="img-responsive" />
+                        </div>
+                        <div class="col-md-9 moviedetail">
+                            <a ng-href="#!/moviedetail/{{result.original_title}}">{{result.title}}</a>
+                            <p>{{result.overview}}</p>
+                            <span class="date">Release Date:</span><p>{{result.release_date}}</p>
+                            <p class="rating__movie">{{result.vote_average}}</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>

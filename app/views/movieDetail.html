@@ -1,0 +1,19 @@
+<div class="container background" ng-init="init()">
+    <div class="row">
+        <div class="col-md-12 single-movie-info" ng-repeat="result in results track by $index">
+            <div class="col-md-2 header__item__card">
+                <img ng-src="{{defaultpath+result.poster_path}}" alt="" class="img-responsive" />
+                <button class="header__slider-item__btn">Get Ticket Now</button>
+            </div>
+            <div class="col-md-8 slider__card-desc">
+                <h2>{{result.title}}</h2>
+                <span class="text__wrap">Vote Count</span><span>{{result.vote_count}}</span>
+                <p>{{result.overview}}</p>
+                <div class="slider__card-prices">
+                    <span class="date">Released Date</span><span>{{result.release_date}}</span>
+                    <p class="rating__movie">{{result.vote_average}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

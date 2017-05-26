@@ -1,0 +1,78 @@
+<header class="header__title">
+    <div class="row">
+        <div class="col-md-12">
+            movie<span>database</span>
+        </div>
+    </div>
+</header>
+<section class="main__section no__padd">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="slider">
+            <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+                <div class="overlay"></div>
+                <ol class="carousel-indicators">
+                    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#bs-carousel" data-slide-to="1"></li>
+                    <li data-target="#bs-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item slides active">
+                        <div class="slide-1"></div>
+                    </div>
+                    <div class="item slides">
+                        <div class="slide-2"></div>
+                    </div>
+                    <div class="item slides">
+                        <div class="slide-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-wrapper">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-fixed-top menu__bar">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="#!/">MDB</a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active__menu"><a href="/#!/movies" class="">MOVIES</a></li>
+                                    <li class="dropdown">
+                                        <a href="#!/" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERIES</a>
+                                    </li>
+                                    <li><a href="#!/">NEWS</a></li>
+                                    <li class=" dropdown"><a href="#!/" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PEOPLE</a>
+                                    </li>
+                                    <li class=" down"><a href="#!/" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DASHBOARD</a>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav pull-right">
+                                    <li class=" dropdown"><a href="#!/" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Signed in as  <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#!/">Change Password</a></li>
+                                            <li><a href="#!/">My Profile</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=""><a href="#!/">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="container search__box">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="custom-search-form" name="form__search" class="form-search form-horizontal pull-right" ng-submit="searchMovie(movieName)">
+                            <div class="input-append col-md-12">
+                                <input type="text" ng-model="movieName" class="search-query search__form" id="movie__name" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+	</div>
+

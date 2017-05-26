@@ -1,0 +1,67 @@
+.header__slider-item {
+    height: 300px;
+    position: relative;
+    top: 40px;
+}
+
+.header__item__card {
+    height: 215px;
+    float: left;
+    display: inline-block;
+}
+.header__item__card img {
+    width: 100%;
+    border-radius: 3px;
+    height: 180px;
+}
+.header__slider-item__btn {
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    box-shadow: none;
+    color: #dfdfdf;
+    border-radius: 3px;
+}
+.slider__card-desc {
+    
+    float: left;
+    display: inline-block;
+   
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.slider__card-desc h2 {
+    
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 33px;
+    
+}
+.slider__card-prices {
+    margin-top: 15px;
+}
+.slider__card-desc p {
+    
+    
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.text__wrap
+{
+    font-style: italic;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.single-movie-info
+{
+
+border: 1px solid rgba(204, 204, 204, 0.77);
+    margin: 10px;
+    padding: 10px;
+
+}
